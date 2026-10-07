@@ -14,7 +14,7 @@ public class StudiKasus111 {
         
         System.out.print("Masukkan jumlah cup\t: ");
         jumlahCup=feby.nextInt();
-        System.out.print("Masukkan uang bayar\t: ");
+        System.out.print("Masukkan uang bayar\t: "); 
         uangBayar=feby.nextInt();
 
         totalHarga=jumlahCup*hargaPerCup;
