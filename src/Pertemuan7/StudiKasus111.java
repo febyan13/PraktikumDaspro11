@@ -7,7 +7,7 @@ public class StudiKasus111 {
 
         Scanner feby = new Scanner(System.in);
 
-        int hargaPerCup = 18000;
+        int hargaPerCup = 20000;
         int jumlahCup,uangBayar;
         int totalHarga,diskon,totalBayar;
         int kembaliann, kurang;
@@ -20,7 +20,7 @@ public class StudiKasus111 {
         totalHarga=jumlahCup*hargaPerCup;
         diskon=0;
 
-        if (totalHarga>=100000) {
+        if (totalHarga>=90000) {
             diskon = totalHarga * 10/100;
         } 
             
