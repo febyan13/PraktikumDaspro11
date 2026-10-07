@@ -32,5 +32,23 @@ public class StudiKasus211 {
             } else {
                 statusPendanaan=("Bukan juara 1, 2, atau 3. Dana penghargaan tidak diberikan.");
             }
+        } else if (kegiatan.equalsIgnoreCase("PKM")) {
+            System.out.print("Status pendanaan PKM (1 = lolos, 0 = tidak lolos) : ");
+            status=feby.nextInt();            
+            if (status==1) {
+                if (junmlahDokumem==4) {
+                    statusPendanaan="Selamat! Dana penghargaan diberikan (tim lolos pendanaan PKM).";
+                } else {
+                    kurang=4-junmlahDokumem;
+                   statusPendanaan="Dokumen tidak lengkap (kurang " + kurang + " dokumen). Dana penghargaan tidak diberikan.";
+                }
+            } else {
+                statusPendanaan="Tim tidak lolos pendanaan PKM. Dana penghargaan tidak diberikan.";
+            }
+        } else {
+            statusPendanaan="Kegiatan di luar ketentuan. Dana penghargaan tidak diberikan.";
+        }
+
+        System.out.println("Status : " + statusPendanaan);
     }
 }
