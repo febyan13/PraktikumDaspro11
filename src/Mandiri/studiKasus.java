@@ -22,6 +22,7 @@ public class studiKasus {
         Double setelahDiskon=biayaPerlembar*diskon;
         Double total=setelahDiskon+biayaPenjilidan;
 
+        System.out.println();
         System.out.println(namaMahasiswa);
         System.out.println(total);
     }

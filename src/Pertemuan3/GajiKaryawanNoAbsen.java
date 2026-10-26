@@ -18,6 +18,7 @@ public class GajiKaryawanNoAbsen {
         totGaji=gajiPokok+tunjTransp+tunjMkn+bonus-(0.1*gajiPokok);
         System.out.println("Bonus bulanan anda adalah Rp."+(int)bonus);
         System.out.println("Gaji yang diterima adalah Rp."+(int)totGaji);
+        System.out.println();
         
     }
 }
