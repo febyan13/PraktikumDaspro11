@@ -37,8 +37,7 @@ public class KolamRenang_11 {
             default:
                 System.out.println("Kode tidak valid");
                 totHarga=0;
-                return;
-                break;
+                return
         }
 
         if (tiket>0 && tiket<=9) {

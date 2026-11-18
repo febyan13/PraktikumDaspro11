@@ -12,18 +12,7 @@ public class SiakadFor11 {
 
         for (int i = 1; i <= 9; i++) {
             System.out.print("Masukkan nilai mahasiswake-" + i + ": ");
-            nilai = feby.nextDouble();
-            if (nilai>tertinggi) {
-                tertinggi=nilai;
-            }
-            if (nilai<terendah) {
-                terendah=nilai;
-            }
-            if (nilai>=55) {
-                lulus++;
-            } else {
-                tidakLulus++;
-            }
+            nilai = feby.nextDouble();          
         }
 
         System.out.println("Nilai tertinggi: " + tertinggi);

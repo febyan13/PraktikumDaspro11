@@ -55,7 +55,6 @@ public class Tugas311 {
             }
 
             System.out.println("Toko " + i + " - pelanggan: " + jumlahPelanggan + ", total barang: " + totalBarangToko);
-
             totalBarangSemuaToko = totalBarangSemuaToko + totalBarangToko;
 
             if (totalBarangToko > barangTerbanyak) {

@@ -13,7 +13,7 @@ public class StudiKasus111 {
         int kembaliann, kurang;
         
         System.out.print("Masukkan jumlah cup\t: ");
-        jumlahCup=feby.nextInt();
+        jumlahCup=feby. nextInt();
         System.out.print("Masukkan uang bayar\t: "); 
         uangBayar=feby.nextInt();
 

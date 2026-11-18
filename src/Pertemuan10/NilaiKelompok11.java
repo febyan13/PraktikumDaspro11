@@ -53,7 +53,7 @@ public class NilaiKelompok11 {
             System.out.println("Kelompok terbaik    : " + kelompokTerbaik);
             System.out.println("Rata-rata tertinggi : " + rataTertinggi);
         }
-
         feby.close();
+
     }
 }
