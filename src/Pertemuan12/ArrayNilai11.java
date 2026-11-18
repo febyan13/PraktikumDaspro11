@@ -17,10 +17,11 @@ public class ArrayNilai11 {
             nilaiAkhir[i] = feby.nextInt();
         }
 
-        for (int i = 0; i < nilaiAkhir.length; i++) {
-            if (nilaiAkhir[i] > 70) {
-                System.out.println("Mahasiswa ke-" + (i + 1) + ": " + nilaiAkhir[i] + " (LULUS)");
-            }
+        int j = 1;
+        for (int nilai : nilaiAkhir) {
+            String status = (nilai > 70) ? "LULUS" : "TIDAK LULUS";
+            System.out.println("Mahasiswa ke-" + j + ": " + nilai + " (" + status + ")");
+            j++;
         }
 
         feby.close();
