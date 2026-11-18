@@ -10,8 +10,10 @@ public class ArrayRataNilai11 {
     public static void main(String[] args) {
  
         Scanner feby = new Scanner(System.in);
-        
-        int[] nilaiMhs = new int[10];
+
+        System.out.print("Banyak mahasiswa: ");
+        int n = feby.nextInt();
+        int[] nilaiMhs = new int[n];
         int total = 0;
         double rata2;
 
@@ -44,7 +46,7 @@ public class ArrayRataNilai11 {
         } 
 
         System.out.println("Predikat kelas: "+kelas);
-        
+
         int lulus = 0;
         for (int i = 0; i < nilaiMhs.length; i++) {
             if (nilaiMhs[i] > 70) lulus++;
