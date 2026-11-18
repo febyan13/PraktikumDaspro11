@@ -8,7 +8,7 @@ public class SearchNilai11 {
     public static void main(String[] args) {
 
         int[] nilai = {78, 65, 90, 55, 88, 72};
-        int key = 90;
+        int key = 61;
         boolean ditemukan = false;
         for (int i = 0; i < nilai.length; i++) {
             if (nilai[i] == key) {
