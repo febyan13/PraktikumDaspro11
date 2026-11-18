@@ -4,11 +4,23 @@
 
 package Pertemuan12;
 
+import java.util.Scanner;
+
 public class SearchNilai11 {
     public static void main(String[] args) {
 
-        int[] nilai = {78, 65, 90, 55, 88, 72};
-        int key = 61;
+        Scanner feby = new Scanner(System.in);
+        
+        System.out.print("Banyak elemen: ");
+        int n = feby.nextInt();
+        int[] nilai = new int[n];
+        for (int i = 0; i < n; i++) {
+            System.out.print("Elemen ke-" + (i+1) + ": ");
+            nilai[i] = feby.nextInt();
+        }
+        System.out.print("Key yang dicari: ");
+        int key = feby.nextInt();
+
         boolean ditemukan = false;
         for (int i = 0; i < nilai.length; i++) {
             if (nilai[i] == key) {
